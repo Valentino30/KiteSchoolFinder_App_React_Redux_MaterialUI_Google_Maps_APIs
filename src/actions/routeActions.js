@@ -25,7 +25,7 @@ export const loadRadius = radius => dispatch => {
 };
 
 export const loadDirections = ({ origin, destination }) => dispatch => {
-  const apiKey = "AIzaSyDeKuJqAAvQ9_b8cUfZ0d6tBlEW4Fz-908";
+  const apiKey = "YOUR_API_KEY";
   axios
     .get(
       // getting cors policy out of the way with heroku
